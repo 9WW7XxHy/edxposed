@@ -19,9 +19,6 @@ install:
 
 build_script:
   - gradlew.bat :edxp-core:zipYahfaRelease
-  - gradlew.bat :edxp-core:zipSandhookRelease
-  - gradlew.bat :edxp-core:zipYahfaDebug
-  - gradlew.bat :edxp-core:zipSandhookDebug
 
 artifacts:
   - path: 'edxp-core\release\**\*.zip'
